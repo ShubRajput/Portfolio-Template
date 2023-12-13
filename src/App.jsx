@@ -8,6 +8,10 @@ import {
   Tech,
   Projects,
 } from './components';
+import ReactGA from "react-ga4";
+
+const TRACKINGID = "G-ZDKDVHEMP8"
+ReactGA.initialize(TRACKINGID);
 
 const App = () => {
   return (
